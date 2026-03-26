@@ -7,14 +7,14 @@ Aplicación simulada de Home Banking en español con datos de prueba.
 El objetivo de este proyecto es aplicar el ciclo completo de testing manual sobre una aplicación de homebanking, abarcando desde el análisis funcional hasta la ejecución de pruebas y reporte de bugs.
 
 ## Módulos
-Login - Autenticación con credenciales válidas en inválidas
-Dashboard / Panel Principal - Resumen de cuentas (Cuenta Corriente, Caja de Ahorro, Tarjeta de Crédito) y Últimos Movimientos
-Transferencias
-Plazos fijos - Consulta, creación y cancelación de plazos fijos
-Préstamos - Consulta, cancelación y solicitud de nuevos préstamos
-Pago de servicios
-Tarjetas virtuales - Generación de tarjetas virtuales
-Mis datos - Información personal, cuentas y tarjetas
+- Login - Autenticación con credenciales válidas en inválidas
+- Dashboard / Panel Principal - Resumen de cuentas (Cuenta Corriente, Caja de Ahorro, Tarjeta de Crédito) y Últimos Movimientos
+- Transferencias
+- Plazos fijos - Consulta, creación y cancelación de plazos fijos
+- Préstamos - Consulta, cancelación y solicitud de nuevos préstamos
+- Pago de servicios
+- Tarjetas virtuales - Generación de tarjetas virtuales
+- Mis datos - Información personal, cuentas y tarjetas
 
 ## Herramientas utilizadas
 - GitHub
