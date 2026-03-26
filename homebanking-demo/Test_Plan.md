@@ -1,11 +1,13 @@
-Introducción
+# Test Plan — Home Banking Demo
+
+## 1. Introducción
 Este documento tiene como objetivo definir el enfoque, alcance y estrategia de pruebas para la validación de las funcionalidades de la aplicación Home Banking Demo.
 
-Objetivo
+## 2. Objetivo
 Aplicar el ciclo completo de testing manual sobre una aplicación de homebanking, abarcando desde el análisis funcional, diseño de pruebas, ejecución y reporte de defectos.
 
-Alcance
-En alcance:
+## 3.Alcance
+**Incluido:**
 - Módulos principales de la aplicación:
 -   Login
 -   Dashboard
@@ -16,12 +18,12 @@ En alcance:
 -   Tarjetas virtuales
 -   Mis datos
 
-Fuera del alcance:
+**Excluido (por ahora):**
 - Integraciones con sistemas reales
 - Pruebas de performance
 
 
-Estrategia:
+## 4. Estrategia
 Se aplicarán los siguientes enfoques:
 - Exploratory Testing
 - Smoke Testing
@@ -30,22 +32,22 @@ Se aplicarán los siguientes enfoques:
 - Boundary Value Analysis
 - Pruebas de Usabilidad / UI
 
-Entorno de prueba:
+## 5. Entorno de prueba
 URL: https://homebanking-demo-tests.netlify.app/ 
 Sistema Operativo: Windows 11
 Navegador: Chrome Versión
 
-Criterios de entrada / salida:
-Entrada:
+## 6. Criterios de entrada / salida
 - La aplicación se encuentra disponible
-- Acceso al entorno de prueba
+- Credenciales de prueba definidas
+- Casos de prueba documentados
 
-Salida:
-- Todos los test cases planificados han sido ejecutados
-- Los bugs detectados han sido documentados
-- No existen defectos críticos sin resolver
+## 7. Criterios de salida
+- Todos los casos ejecutados.
+- Bugs reportados y clasificados.
+- Informe de ejecución generado.
 
-Riesgos:
+## 8. Riesgos
 - Uso de datos dummy que pueden no reflejar comportamientos reales
 - Posibles limitaciones en la lógica del sistema al tratarse de una aplicación demo
 - Funcionalidades incompletas o no implementadas
