@@ -44,18 +44,21 @@ Herramientas: GitHub, Chrome DevTools, Notion
 - La aplicación responde sin errores críticos (sin errores 404/500)
 - Credenciales de prueba disponibles y validadas.
 - Casos de prueba documentados.
+- Las funcionalidades principales están implementadas.
 - Entorno de prueba configurado.
 
 ## 7. Criterios de salida
 - Al menos el 90% de los casos de prueba críticos ejecutados.
 - Todos los bugs críticos y altos debidamente reportados y clasificados.
 - Evidencias (capturas) almacenadas.
+- No existen defectos críticos abiertos que impidan el uso básico del sistema.
 - Reporte de ejecución (`Test_Execution_Report.md`) completado.
 
 ## 8. Riesgos
 - Uso de datos dummy que pueden no reflejar comportamientos reales
 - Posibles limitaciones en la lógica del sistema al tratarse de una aplicación demo
-- Funcionalidades incompletas o no implementadas
+- Funcionalidades incompletas o con comportamiento no definido.
+- Dependencia de un único entorno (no se prueban distintos dispositivos o navegadores).
 
 
 
