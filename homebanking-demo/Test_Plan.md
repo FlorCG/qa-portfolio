@@ -42,7 +42,7 @@ Herramientas: GitHub, Chrome DevTools, Notion
 
 ## 6. Criterios de entrada
 - La aplicación debe estar accesible.
-- Credenciales de prueba definidas.
+- Credenciales de prueba disponibles y validadas.
 - Casos de prueba documentados.
 - Entorno de prueba configurado.
 
