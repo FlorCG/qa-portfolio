@@ -55,12 +55,6 @@ Herramientas: GitHub, Chrome DevTools, Notion
 - Reporte de ejecución (`Test_Execution_Report.md`) completado.
 
 ## 8. Riesgos
-- Uso de datos dummy que pueden no reflejar comportamientos reales
-- Posibles limitaciones en la lógica del sistema al tratarse de una aplicación demo
-- Funcionalidades incompletas o con comportamiento no definido.
-- Dependencia de un único entorno (no se prueban distintos dispositivos o navegadores).
-
-
 | # | Riesgo | Probabilidad | Impacto | Mitigación |
 |---|--------|--------------|---------|------------|
 | 1 | **Datos dummy no reflejan comportamiento real** | ALTA | MEDIO | - Documentar limitaciones en el reporte final<br>- Aclarar que es ambiente de prueba<br>- No asumir que bugs encontrados existen en producción |
