@@ -61,5 +61,13 @@ Herramientas: GitHub, Chrome DevTools, Notion
 - Dependencia de un único entorno (no se prueban distintos dispositivos o navegadores).
 
 
+| # | Riesgo | Probabilidad | Impacto | Mitigación |
+|---|--------|--------------|---------|------------|
+| 1 | **Datos dummy no reflejan comportamiento real** | ALTA | MEDIO | - Documentar limitaciones en el reporte final<br>- Aclarar que es ambiente de prueba<br>- No asumir que bugs encontrados existen en producción |
+| 2 | **Funcionalidades incompletas o no implementadas** | MEDIA | ALTO | - Explorar app antes de escribir test cases<br>- Documentar features "Out of Scope"<br>- Ajustar test cases solo a features existentes |
+| 3 | **App demo puede caerse o estar offline** | BAJA | CRÍTICO | - Hacer capturas de pantalla durante exploración<br>- Guardar copia local del HTML (si es posible)<br>- Documentar estado de la app en cada sesión |
+| 4 | **Cambios en la app sin notificación** | MEDIA | MEDIO | - Versionar test cases con fecha<br>- Documentar versión de la app testeada<br>- Re-ejecutar smoke tests si detectás cambios |
+| 5 | **Falta de documentación oficial** | ALTA | MEDIO | - Basarse en la sección "Documentación Funcional" de la app<br>- Documentar asunciones propias<br>- Validar asunciones con exploración |
+
 
 
