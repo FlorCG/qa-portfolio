@@ -40,7 +40,7 @@ Sistema Operativo: Windows 11
 Navegador: Chrome Versión
 Herramientas: GitHub, Chrome DevTools, Notion
 
-## 6. Criterios de entrada / salida
+## 6. Criterios de entrada
 - La aplicación debe estar accesible.
 - Credenciales de prueba definidas.
 - Casos de prueba documentados.
