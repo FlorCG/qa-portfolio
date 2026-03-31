@@ -8,7 +8,7 @@ Este documento tiene como objetivo definir el enfoque, alcance y estrategia de p
 - Diseñar y ejecutar casos de prueba para los módulos críticos de la aplicación.
 - Identificar y documentar defectos con sus respectivos pasos de reproducción.
 
-## 3.Alcance
+## 3. Alcance
 **In Scope:**
 - Módulos principales de la aplicación:
 -   Login
@@ -41,7 +41,7 @@ Navegador: Chrome Versión
 Herramientas: GitHub, Chrome DevTools, Notion
 
 ## 6. Criterios de entrada
-- La aplicación debe estar accesible.
+- La aplicación responde sin errores críticos (sin errores 404/500)
 - Credenciales de prueba disponibles y validadas.
 - Casos de prueba documentados.
 - Entorno de prueba configurado.
