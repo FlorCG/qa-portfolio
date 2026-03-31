@@ -4,10 +4,12 @@
 Este documento tiene como objetivo definir el enfoque, alcance y estrategia de pruebas para la validación de las funcionalidades de la aplicación Home Banking Demo.
 
 ## 2. Objetivo
-Aplicar el ciclo completo de testing manual sobre una aplicación de homebanking, abarcando desde el análisis funcional, diseño de pruebas, ejecución y reporte de defectos.
+- Realizar un ciclo completo de testing manual simulando el rol de QA en un banco digital.
+- Diseñar y ejecutar casos de prueba para los módulos críticos de la aplicación.
+- Identificar y documentar defectos con sus respectivos pasos de reproducción.
 
 ## 3.Alcance
-**Incluido:**
+**In Scope:**
 - Módulos principales de la aplicación:
 -   Login
 -   Dashboard
@@ -18,7 +20,7 @@ Aplicar el ciclo completo de testing manual sobre una aplicación de homebanking
 -   Tarjetas virtuales
 -   Mis datos
 
-**Excluido (por ahora):**
+**Out of Scope:**
 - Integraciones con sistemas reales
 - Pruebas de performance
 
@@ -36,16 +38,19 @@ Se aplicarán los siguientes enfoques:
 URL: https://homebanking-demo-tests.netlify.app/ 
 Sistema Operativo: Windows 11
 Navegador: Chrome Versión
+Herramientas: GitHub, Chrome DevTools, Notion
 
 ## 6. Criterios de entrada / salida
-- La aplicación se encuentra disponible
-- Credenciales de prueba definidas
-- Casos de prueba documentados
+- La aplicación debe estar accesible.
+- Credenciales de prueba definidas.
+- Casos de prueba documentados.
+- Entorno de prueba configurado.
 
 ## 7. Criterios de salida
-- Todos los casos ejecutados.
-- Bugs reportados y clasificados.
-- Informe de ejecución generado.
+- Al menos el 90% de los casos de prueba críticos ejecutados.
+- Todos los bugs críticos y altos debidamente reportados y clasificados.
+- Evidencias (capturas) almacenadas.
+- Reporte de ejecución (`Test_Execution_Report.md`) completado.
 
 ## 8. Riesgos
 - Uso de datos dummy que pueden no reflejar comportamientos reales
