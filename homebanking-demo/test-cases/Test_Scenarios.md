@@ -1,8 +1,6 @@
 # Test Scenarios - Home Banking Demo
 
 **Proyecto:** Home Banking Demo  
-**Tester:** Florencia  
-**Fecha:** 07 de Abril de 2026  
 **Versión:** 1.0
 
 ## Introducción
