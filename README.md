@@ -9,7 +9,7 @@ Actualmente ampliando conocimientos en QA Automation (Cypress y Playwright).
 ## Proyectos
 | Proyecto                        | Tipo                  | Tecnologías / Enfoque                  | Estado     | Link |
 |--------------------------------|-----------------------|----------------------------------------|------------|------|
-| **Home Banking Demo**          | Testing Manual        | Functional, Negative, Exploratory, Edge Cases | En progreso | [projects/homebanking-demo](./projects/homebanking-demo) |
+| **Home Banking Demo**          | Testing Manual        | Functional, Negative, Exploratory, Edge Cases | En progreso | [projects/homebanking-demo](./homebanking-demo) |
 | (Próximamente)                 | ...                   | ...                                    | ...        | ... |
 
 
