@@ -19,6 +19,11 @@ Permitir la autenticación segura del usuario en el sistema mediante credenciale
 
 ## Reglas de negocio  
 
+- La autenticación requiere usuario y contraseña válidos
+- La cuenta se bloquea luego de 3 intentos fallidos consecutivos
+- El bloqueo muestra un mensaje diferente: "Tu cuenta ha sido bloqueada temporalmente. Contacta con soporte."
+- 
+
 
 ---
 
