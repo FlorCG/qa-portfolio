@@ -29,8 +29,7 @@ Permitir la autenticación segura del usuario en el sistema mediante credenciale
 - El bloqueo muestra un mensaje diferente: "Tu cuenta ha sido bloqueada temporalmente. Contacta con soporte."
 - Una cuenta con estado bloqueado (credencial `locked`) muestra el mismo mensaje de bloqueo
 - El checkbox "Recordarme" debería mantener la sesión activa entre sesiones *(a confirmar)*
-- Las rutas protegidas redirigen al Login si no hay sesión activa
-
+- Si el usuario intenta acceder al Dashboard o a cualquier otra sección sin haber iniciado sesión, el sistema lo redirige automáticamente al Login
 
 ---
 
