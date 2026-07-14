@@ -1,7 +1,7 @@
 # Análisis Funcional Login  
 
-Módulo: Login  
-Prioridad: Alta  
+**Módulo:** Login  
+**Prioridad:** Alta  
 
 > Este análisis está basado en la exploración de la aplicación. No existe documentación oficial de requisitos — los comportamientos esperados fueron inferidos a partir del comportamiento observado y estándares de usabilidad.
 
