@@ -68,11 +68,3 @@
 | UI-02 | Login utilizando la tecla Enter         | Usuario válido | 1. Completar usuario y contraseña.<br>2. Presionar la tecla **Enter**.                  | El login se ejecuta igual que al hacer clic en **Ingresar**.               | Media     |
 | UI-03 | Múltiples clics sobre el botón Ingresar | Usuario válido | 1. Completar credenciales válidas.<br>2. Hacer varios clics rápidos sobre **Ingresar**. | El sistema procesa una única autenticación y evita solicitudes duplicadas. | Media     |
 
-
----
-
-## Notas 
-
-- Los casos **TC-15** y **TC-16** dependen de una definición de negocio pendiente sobre el comportamiento del checkbox "Recordarme". No deben ejecutarse como PASS/FAIL hasta contar con dicha definición; se recomienda documentarlos como **bloqueados** en el gestor de test cases (ej. Jira/Xray, TestRail) hasta su confirmación.
-- Se recomienda validar también el mensaje de error mostrado en los casos negativos (TC-02, TC-03) para asegurar que no revele información sensible (ej. si el usuario existe o no), por buenas prácticas de seguridad.
-- Sería conveniente confirmar si el bloqueo por intentos fallidos (TC-07) es temporal con expiración automática, o si requiere intervención de soporte para desbloquear.
