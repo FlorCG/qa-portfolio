@@ -12,9 +12,10 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 - SC-01: Verificar login exitoso con credenciales válidas
 - SC-02: Verificar login fallido con credenciales inválidas
 - SC-03: Verificar mensaje de error al ingresar usuario o contraseña incorrecta
-- SC-04: Verificar comportamiento de cuenta bloqueada (credenciales locked/locked)
-- SC-05: Verificar login con campos vacíos
-- SC-06: Verificar que después de login exitoso se redirija al Dashboard
+- SC-04: Verificar bloqueo automático luego de tres intentos fallidos
+- SC-05: Verificar comportamiento de cuenta bloqueada (credenciales locked/locked)
+- SC-06: Verificar login con campos vacíos
+- SC-07: Verificar que después de login exitoso se redirija al Dashboard
 
 ## 2. Dashboard / Panel Principal
 
