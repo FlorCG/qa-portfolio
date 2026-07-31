@@ -44,8 +44,7 @@
 ---
 
 # Casos de Seguridad
-
-* Estos casos aplican si el backend procesa las credenciales contra una base de datos real. Si el demo simula la autenticación en frontend, estos casos quedan fuera de alcance y se documentan solo como referencia conceptual *
+//Estos casos aplican si el backend procesa las credenciales contra una base de datos real. Si el demo simula la autenticación en frontend, estos casos quedan fuera de alcance y se documentan solo como referencia conceptual 
 
 | ID     | Título                                            | Precondición                            | Pasos                                                                                                                    | Resultado Esperado                                                                  | Prioridad |
 | ------ | ------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | --------- |
