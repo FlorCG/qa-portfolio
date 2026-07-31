@@ -45,6 +45,8 @@
 
 # Casos de Seguridad
 
+* Estos casos aplican si el backend procesa las credenciales contra una base de datos real. Si el demo simula la autenticación en frontend, estos casos quedan fuera de alcance y se documentan solo como referencia conceptual *
+
 | ID     | Título                                            | Precondición                            | Pasos                                                                                                                    | Resultado Esperado                                                                  | Prioridad |
 | ------ | ------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- | --------- |
 | SEC-01 | SQL Injection en Usuario                          | Ninguna                                 | 1. Ingresar `' OR '1'='1` en Usuario.<br>2. Ingresar cualquier contraseña.<br>3. Presionar **Ingresar**.                 | El acceso es rechazado y no se muestran errores técnicos.                           | Alta      |
