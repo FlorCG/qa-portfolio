@@ -19,8 +19,8 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 - LOG-SC-08: Verificar redirección automática a Login al intentar acceder a secciones protegidas sin sesión activa (Dashboard, Transferencias, u otras)
 - LOG-SC-09: Verificar reinicio del contador de intentos fallidos tras un login exitoso
 - LOG-SC-10: Verificar comportamiento del checkbox "Recordarme" (Pendiente de confirmación)
-- LOG-SC-11: Verificar comportamiento del checkbox "Recordarme" (Pendiente de confirmación)
-- LOG-SC-12: Verificar comportamiento del checkbox "Recordarme" (Pendiente de confirmación)
+- LOG-SC-11: Verificar comportamiento de UI/UX del formulario de Login (máscara de contraseña, tecla Enter, doble clic en Ingresar)
+- LOG-SC-12: Verificar manejo de sesión y solicitudes concurrentes (sesión expirada, bloqueo aislado por usuario, múltiples solicitudes simultáneas)
  
   
 ## 2. Dashboard / Panel Principal
@@ -32,11 +32,41 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 3. Transferencias
 
-- TRANS-SC-17: Verificar realización de transferencia exitosa entre cuentas propias
-- TRANS-SC-18: Verificar transferencia a CBU/CVU/Alias
-- TRANS-SC-19: Verificar validaciones de monto en transferencias (monto cero, negativo, superior al saldo)
-- TRANS-SC-20: Verificar mensaje de confirmación después de transferencia exitosa
+**Flujo funcional — Entre mis cuentas**
+- TRANS-SC-01: Verificar transferencia exitosa entre cuentas propias con monto válido
+- TRANS-SC-02: Verificar que el saldo de cuenta origen disminuye y destino aumenta tras transferencia exitosa
+- TRANS-SC-03: Verificar visualización del modal de confirmación con los datos correctos antes de procesar
 
+**Flujo funcional — A terceros**
+- TRANS-SC-04: Verificar transferencia exitosa a tercero mediante Alias válido
+- TRANS-SC-05: Verificar transferencia exitosa a tercero mediante CBU válido (22 dígitos)
+
+**Validaciones de monto**
+- TRANS-SC-06: Verificar rechazo de transferencia con monto vacío o igual a cero
+- TRANS-SC-07: Verificar comportamiento con monto menor al mínimo ($0.01) — incluye inconsistencia entre validación inicial y validación en el modal de confirmación *(bug detectado)*
+- TRANS-SC-08: Verificar rechazo de transferencia con monto mayor al máximo permitido ($50.000)
+- TRANS-SC-09: Verificar comportamiento con montos de decimales no válidos (ej. $50.001)
+- TRANS-SC-10: Verificar comportamiento al transferir un monto superior al saldo disponible *(pendiente de confirmación)*
+
+**Validación de cuentas y destino**
+- TRANS-SC-11: Verificar rechazo de transferencia cuando cuenta origen y destino son la misma
+- TRANS-SC-12: Verificar rechazo de Alias con formato inválido
+- TRANS-SC-13: Verificar comportamiento de validación de CBU, incluyendo la inconsistencia detectada con CBUs incompletos *(bug detectado — Alta prioridad)*
+
+**Límite diario**
+- TRANS-SC-14: Verificar bloqueo de transferencias al superar el límite diario de $100.000
+- TRANS-SC-15: Verificar persistencia del límite diario entre sesiones (logout/login)
+- TRANS-SC-16: Verificar reseteo del límite diario *(pendiente de confirmación: medianoche vs. 24hs desde la primera transferencia)*
+
+**Modal de confirmación**
+- TRANS-SC-17: Verificar cancelación de transferencia desde el modal de confirmación (no debe procesarse ni afectar saldos ni límite diario)
+
+**UI / UX**
+- TRANS-SC-18: Verificar comportamiento del dropdown "Tipo de transferencia" después de completar una transferencia a terceros *(bug detectado — vuelve a "Entre mis cuentas")*
+- TRANS-SC-19: Verificar límite de caracteres en el campo Descripción *(pendiente de confirmación)*
+
+**Generales / No funcionales**
+- TRANS-SC-20: Verificar comportamiento del sistema ante falla de conexión durante una transferencia ya confirmada *(pendiente — caso de error de red)*
 ## 4. Plazos Fijos
 
 - SC-15: Verificar creación de un nuevo Plazo Fijo
