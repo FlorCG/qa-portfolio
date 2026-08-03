@@ -9,27 +9,27 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 1. Login
 
-- SC-01: Verificar login exitoso con credenciales válidas
-- SC-02: Verificar login fallido con credenciales inválidas
-- SC-03: Verificar mensaje de error al ingresar usuario o contraseña incorrecta
-- SC-04: Verificar bloqueo automático luego de tres intentos fallidos
-- SC-05: Verificar comportamiento de cuenta bloqueada (credenciales locked/locked)
-- SC-06: Verificar login con campos vacíos
-- SC-07: Verificar que después de login exitoso se redirija al Dashboard
+- LOG-SC-01: Verificar login exitoso con credenciales válidas
+- LOG-SC-02: Verificar login fallido con credenciales inválidas
+- LOG-SC-03: Verificar mensaje de error al ingresar usuario o contraseña incorrecta
+- LOG-SC-04: Verificar bloqueo automático luego de tres intentos fallidos
+- LOG-SC-05: Verificar comportamiento de cuenta bloqueada (credenciales locked/locked)
+- LOG-SC-06: Verificar login con campos vacíos
+- LOG-SC-07: Verificar que después de login exitoso se redirija al Dashboard
 
 ## 2. Dashboard / Panel Principal
 
-- SC-07: Verificar visualización correcta del resumen de cuentas (Corriente, Caja de Ahorro, Tarjeta de Crédito)
-- SC-08: Verificar visualización de los Últimos Movimientos
-- SC-09: Verificar que los saldos se muestren correctamente ($0.00 en demo)
-- SC-10: Verificar navegación hacia otros módulos desde el Dashboard
+- DASH-SC-08: Verificar visualización correcta del resumen de cuentas (Corriente, Caja de Ahorro, Tarjeta de Crédito)
+- DASH-SC-09: Verificar visualización de los Últimos Movimientos
+- DASH-SC-10: Verificar que los saldos se muestren correctamente ($0.00 en demo)
+- DASH-SC-11: Verificar navegación hacia otros módulos desde el Dashboard
 
 ## 3. Transferencias
 
-- SC-11: Verificar realización de transferencia exitosa entre cuentas propias
-- SC-12: Verificar transferencia a CBU/CVU/Alias
-- SC-13: Verificar validaciones de monto en transferencias (monto cero, negativo, superior al saldo)
-- SC-14: Verificar mensaje de confirmación después de transferencia exitosa
+- TRANS-SC-12: Verificar realización de transferencia exitosa entre cuentas propias
+- TRANS-SC-13: Verificar transferencia a CBU/CVU/Alias
+- TRANS-SC-14: Verificar validaciones de monto en transferencias (monto cero, negativo, superior al saldo)
+- TRANS-SC-15: Verificar mensaje de confirmación después de transferencia exitosa
 
 ## 4. Plazos Fijos
 
