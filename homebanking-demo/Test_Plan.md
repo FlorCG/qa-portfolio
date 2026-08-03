@@ -114,7 +114,20 @@ Condiciones que determinan que el ciclo de pruebas está **completo**:
 ---
 
 
+# Asunciones de Diseño — Módulo Login
 
+> **Nota:** Dado que esta es una aplicación demo sin documentación funcional completa por parte de un Product Owner, se establecieron las siguientes asunciones para poder ejecutar los casos de prueba. Estas decisiones fueron tomadas por el equipo de QA y deberían ser validadas por negocio en un contexto real.
+
+| Regla ambigua | Asunción adoptada | Casos afectados |
+|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| Checkbox **"Recordarme"** | Al tildarse, mantiene la sesión activa por **7 días**, aunque se cierre el navegador. Si no se tilda, la sesión expira al cerrar el navegador. | LOG-12, LOG-13 |
+| Longitud mínima de Usuario | **4 caracteres**. | LOG-15 |
+| Longitud máxima de Usuario | **20 caracteres**. | LOG-16, LOG-17 |
+| Longitud mínima de Contraseña | **6 caracteres**. | LOG-18, LOG-19 |
+| Longitud máxima de Contraseña | **20 caracteres**. | LOG-20 |
+| Case-sensitivity de Usuario | El campo Usuario **no distingue entre mayúsculas y minúsculas** (*case-insensitive*). | LOG-23 |
+| Case-sensitivity de Contraseña | La Contraseña **sí distingue entre mayúsculas y minúsculas** (*case-sensitive*), siguiendo una regla estándar de seguridad. | LOG-24 |
+| Caracteres especiales permitidos en Usuario | Se permiten únicamente **punto (`.`)** y **guion bajo (`_`)**. Cualquier otro carácter especial se considera inválido. | LOG-25, LOG-26 |
 
 
 
