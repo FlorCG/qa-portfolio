@@ -16,20 +16,23 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 - LOG-SC-05: Verificar comportamiento de cuenta bloqueada (credenciales locked/locked)
 - LOG-SC-06: Verificar login con campos vacíos
 - LOG-SC-07: Verificar que después de login exitoso se redirija al Dashboard
+- LOG-SC-08: Verificar redirección automática a Login al intentar acceder a secciones protegidas sin sesión activa (Dashboard, Transferencias, u otras)
+- LOG-SC-09: Verificar reinicio del contador de intentos fallidos tras un login exitoso
+- LOG-SC-10: Verificar comportamiento del checkbox "Recordarme" (Pendiente de confirmación)
 
 ## 2. Dashboard / Panel Principal
 
-- DASH-SC-08: Verificar visualización correcta del resumen de cuentas (Corriente, Caja de Ahorro, Tarjeta de Crédito)
-- DASH-SC-09: Verificar visualización de los Últimos Movimientos
-- DASH-SC-10: Verificar que los saldos se muestren correctamente ($0.00 en demo)
-- DASH-SC-11: Verificar navegación hacia otros módulos desde el Dashboard
+- DASH-SC-11: Verificar visualización correcta del resumen de cuentas (Corriente, Caja de Ahorro, Tarjeta de Crédito)
+- DASH-SC-12: Verificar visualización de los Últimos Movimientos
+- DASH-SC-13: Verificar que los saldos se muestren correctamente ($0.00 en demo)
+- DASH-SC-14: Verificar navegación hacia otros módulos desde el Dashboard
 
 ## 3. Transferencias
 
-- TRANS-SC-12: Verificar realización de transferencia exitosa entre cuentas propias
-- TRANS-SC-13: Verificar transferencia a CBU/CVU/Alias
-- TRANS-SC-14: Verificar validaciones de monto en transferencias (monto cero, negativo, superior al saldo)
-- TRANS-SC-15: Verificar mensaje de confirmación después de transferencia exitosa
+- TRANS-SC-15: Verificar realización de transferencia exitosa entre cuentas propias
+- TRANS-SC-16: Verificar transferencia a CBU/CVU/Alias
+- TRANS-SC-17: Verificar validaciones de monto en transferencias (monto cero, negativo, superior al saldo)
+- TRANS-SC-18: Verificar mensaje de confirmación después de transferencia exitosa
 
 ## 4. Plazos Fijos
 
