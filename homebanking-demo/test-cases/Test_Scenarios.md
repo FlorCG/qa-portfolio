@@ -25,11 +25,16 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
   
 ## 2. Dashboard / Panel Principal
 
-- DASH-SC-13: Verificar visualización correcta del resumen de cuentas (Corriente, Caja de Ahorro, Tarjeta de Crédito)
-- DASH-SC-14: Verificar visualización de los Últimos Movimientos
-- DASH-SC-15: Verificar que los saldos se muestren correctamente ($0.00 en demo)
-- DASH-SC-16: Verificar navegación hacia otros módulos desde el Dashboard
+- DASH-SC-01: Verificar visualización correcta del resumen de cuentas (Corriente, Caja de Ahorro, Tarjeta de Crédito)
+- DASH-SC-02: Verificar visualización de los Últimos Movimientos (orden y contenido)
+- DASH-SC-03: Verificar consistencia de saldos tras operaciones realizadas en otros módulos (pendiente de confirmación)
+- DASH-SC-04: Verificar navegación hacia otros módulos desde el sidebar
+- DASH-SC-05: Verificar funcionalidad del botón "Ocultar" en las tarjetas de cuenta
+- DASH-SC-06: Verificar persistencia del estado "Ocultar" al navegar entre módulos (pendiente de confirmación)
+- DASH-SC-07: Verificar funcionalidad del botón "Restablecer saldos"
+- DASH-SC-08: Verificar cierre de sesión desde la navbar
 
+  
 ## 3. Transferencias
 
 **Flujo funcional — Entre mis cuentas**
