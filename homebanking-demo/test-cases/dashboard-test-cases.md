@@ -2,8 +2,15 @@
 
 ## Información general
 
-- **Elementos de la interfaz:** Navbar (usuario + botón "Salir"), Sidebar (menú de navegación), Panel Principal (resumen de saldos), botón "Restablecer saldos", Tarjetas de cuenta (Corriente, Caja de Ahorro, Tarjeta de Crédito) con botón "Ocultar", Últimos Movimientos
-- **Reglas de negocio consideradas:**
+**Elementos de la interfaz:**
+- Navbar (usuario + botón "Salir")
+- Sidebar (menú de navegación)
+- Panel Principal (resumen de saldos)
+- Botón "Restablecer saldos"
+- Tarjetas de cuenta (Corriente, Caja de Ahorro, Tarjeta de Crédito) con botón "Ocultar"
+- Últimos Movimientos
+  
+  **Reglas de negocio consideradas:**
   - El Dashboard es la página principal tras el login exitoso
   - Las tres cuentas deben estar siempre visibles
   - El botón "Ocultar" oculta número y saldo, manteniendo el título visible
