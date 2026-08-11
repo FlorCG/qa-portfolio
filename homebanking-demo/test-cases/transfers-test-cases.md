@@ -2,7 +2,7 @@
 
 ## Información general
 
-- **Elementos de la interfaz:**
+**Elementos de la interfaz:**
 - Selector de tipo (Entre mis cuentas / A terceros)
 - Cuenta origen
 - Cuenta destino
@@ -10,8 +10,9 @@
 - Monto
 - Descripción (opcional)
 - Botón Transferir
-- Modal de confirmación (Confirmar / Cancelar)  
-- **Reglas de negocio consideradas:**
+- Modal de confirmación (Confirmar / Cancelar)
+  
+**Reglas de negocio consideradas:**
   - Monto mínimo: $1 — Monto máximo: $50.000 por transferencia
   - Límite diario: $100.000 (persiste entre sesiones)
   - No se puede transferir de una cuenta a sí misma
