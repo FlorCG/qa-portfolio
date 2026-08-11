@@ -106,10 +106,34 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 5. Préstamos
 
-- SC-19: Verificar solicitud de nuevo préstamo dentro del límite ($500.000)
-- SC-20: Verificar rechazo de préstamo que supera el límite permitido
-- SC-21: Verificar visualización de préstamos activos
-- SC-22: Verificar validaciones de monto y cuotas en el formulario de préstamo
+**Solicitud de préstamo**
+- PREST-SC-01: Verificar solicitud exitosa de un préstamo con datos válidos
+- PREST-SC-02: Verificar que solo estén disponibles las cuentas destino válidas (excluyendo la no permitida)
+- PREST-SC-03: Verificar que solo estén disponibles las opciones de cuotas definidas (6/12/18/24)
+
+**Validaciones de monto**
+- PREST-SC-04: Verificar rechazo de monto menor al mínimo permitido ($1.000)
+- PREST-SC-05: Verificar rechazo de monto mayor al máximo permitido ($500.000)
+
+**Visualización de préstamos activos**
+- PREST-SC-06: Verificar visualización correcta de los datos de cada préstamo activo
+
+**Pagar total**
+- PREST-SC-07: Verificar cancelación exitosa de un préstamo mediante "Pagar Total"
+- PREST-SC-08: Verificar que el dropdown de cuenta de pago solo muestre cuentas con saldo suficiente
+- PREST-SC-09: Verificar rechazo cuando ninguna cuenta tiene saldo suficiente para pagar el total
+- PREST-SC-10: Verificar monto total a pagar (pendiente de confirmación: incluye intereses restantes o no)
+
+**Desistir (plazo de revocación)**
+- PREST-SC-11: Verificar disponibilidad del botón "Desistir" dentro del plazo de 10 días
+- PREST-SC-12: Verificar desistimiento exitoso dentro del plazo, devolviendo el monto original
+- PREST-SC-13: Verificar comportamiento del botón "Desistir" pasado el plazo de 10 días (pendiente de confirmación)
+
+**Modales**
+- PREST-SC-14: Verificar que cancelar desde los modales (Pagar Total / Desistir) no ejecute las acciones
+
+**Generales**
+- PREST-SC-15: Verificar si existe límite de préstamos activos simultáneos (pendiente de confirmación)
 
 ## 6. Pago de Servicios
 
