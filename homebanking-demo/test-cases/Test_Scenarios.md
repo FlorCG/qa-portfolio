@@ -101,6 +101,9 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 **Modal de creación**
 - PF-SC-14: Verificar que cancelar la creación desde el modal no genere el Plazo Fijo
 
+**Generales**
+- PF-SC-15: Verificar si existe límite de cantidad de Plazos Fijos simultáneos por cuenta *(pendiente de confirmación)*
+
 ## 5. Préstamos
 
 - SC-19: Verificar solicitud de nuevo préstamo dentro del límite ($500.000)
