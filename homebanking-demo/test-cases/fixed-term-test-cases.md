@@ -2,8 +2,12 @@
 
 ## Información general
 
-- **Elementos de la interfaz:** Panel de Plazos Fijos activos (monto, TNA, plazo, interés estimado, fecha inicio/vencimiento, total al vencimiento, botón Cancelar), formulario de creación (cuenta origen, monto, plazo, botón Crear Plazo Fijo), modales de confirmación (creación y cancelación)
-- **Reglas de negocio consideradas:**
+**Elementos de la interfaz:**
+- Panel de Plazos Fijos activos (monto, TNA, plazo, interés estimado, fecha inicio/vencimiento, total al vencimiento, botón Cancelar)
+- Formulario de creación (cuenta origen, monto, plazo, botón Crear Plazo Fijo)
+- Modales de confirmación (creación y cancelación)
+
+**Reglas de negocio consideradas:**
   - Monto mínimo: $1.000
   - Plazos disponibles: 30, 60, 90, 180 y 360 días
   - Requiere modal de confirmación tanto para crear como para cancelar
