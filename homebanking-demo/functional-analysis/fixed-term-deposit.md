@@ -102,7 +102,7 @@ Permitir al usuario invertir dinero a un plazo determinado con una tasa de inter
 
 ## Casos de prueba relacionados
 
-*Ver `test-cases-plazos-fijos.md`*
+*Ver `fixed-term-test-cases.md`*
 
 ---
 
