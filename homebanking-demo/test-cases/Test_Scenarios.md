@@ -72,12 +72,34 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 **Generales / No funcionales**
 - TRANS-SC-20: Verificar comportamiento del sistema ante falla de conexión durante una transferencia ya confirmada *(pendiente — caso de error de red)*
+  
 ## 4. Plazos Fijos
 
-- SC-15: Verificar creación de un nuevo Plazo Fijo
-- SC-16: Verificar cálculo correcto de intereses según días y monto
-- SC-17: Verificar visualización de Plazos Fijos activos
-- SC-18: Verificar validaciones en el formulario de Plazo Fijo (campos obligatorios, montos mínimos/máximos)
+**Creación de Plazo Fijo**
+- PF-SC-01: Verificar creación exitosa de un nuevo Plazo Fijo con datos válidos
+- PF-SC-02: Verificar cálculo correcto de interés estimado, total al vencimiento y fecha de vencimiento según monto y plazo
+- PF-SC-03: Verificar visualización del modal de confirmación con los datos correctos antes de crear
+
+**Validaciones de monto**
+- PF-SC-04: Verificar rechazo de monto menor al mínimo permitido ($1.000)
+- PF-SC-05: Verificar rechazo por saldo insuficiente en la cuenta origen
+- PF-SC-06: Verificar comportamiento con montos decimales *(pendiente de confirmación)*
+
+**Plazo**
+- PF-SC-07: Verificar que solo estén disponibles las opciones de plazo definidas (30/60/90/180/360 días)
+- PF-SC-08: Verificar variación de TNA/interés según el plazo elegido *(pendiente de confirmación)*
+
+**Visualización de Plazos Fijos activos**
+- PF-SC-09: Verificar visualización correcta de los datos de cada Plazo Fijo activo
+- PF-SC-10: Verificar orden de aparición de nuevos Plazos Fijos en la lista
+
+**Cancelación**
+- PF-SC-11: Verificar cancelación exitosa de un Plazo Fijo activo
+- PF-SC-12: Verificar monto a reintegrar al cancelar *(pendiente de confirmación: incluye interés o no)*
+- PF-SC-13: Verificar que cancelar desde el modal (botón Cancelar) no ejecute la acción
+
+**Modal de creación**
+- PF-SC-14: Verificar que cancelar la creación desde el modal no genere el Plazo Fijo
 
 ## 5. Préstamos
 
