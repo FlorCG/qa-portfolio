@@ -137,9 +137,16 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 6. Pago de Servicios
 
-- SC-23: Verificar pago de servicio exitoso
-- SC-24: Verificar validaciones en el formulario de pago de servicios
-- SC-25: Verificar mensaje de confirmación de pago
+- SERV-SC-01: Verificar pago de servicio exitoso
+- SERV-SC-02: Verificar selección de servicio
+- SERV-SC-03: Verificar validación del monto a pagar
+- SERV-SC-04: Verificar selección de cuenta a debitar
+- SERV-SC-05: Verificar comportamiento ante saldo insuficiente
+- SERV-SC-06: Verificar cuentas disponibles para realizar el débito
+- SERV-SC-07: Verificar confirmación y cancelación del pago
+- SERV-SC-08: Verificar actualización del saldo después de un pago exitoso
+- SERV-SC-09: Verificar registro del pago en los movimientos
+- SERV-SC-10: Verificar prevención de pagos duplicados
 
 ## 7. Tarjetas Virtuales
 
