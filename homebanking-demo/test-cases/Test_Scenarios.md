@@ -137,16 +137,18 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 6. Pago de Servicios
 
-- SERV-SC-01: Verificar pago de servicio exitoso
-- SERV-SC-02: Verificar selección de servicio
-- SERV-SC-03: Verificar validación del monto a pagar
-- SERV-SC-04: Verificar selección de cuenta a debitar
-- SERV-SC-05: Verificar comportamiento ante saldo insuficiente
-- SERV-SC-06: Verificar cuentas disponibles para realizar el débito
-- SERV-SC-07: Verificar confirmación y cancelación del pago
-- SERV-SC-08: Verificar actualización del saldo después de un pago exitoso
-- SERV-SC-09: Verificar registro del pago en los movimientos
-- SERV-SC-10: Verificar prevención de pagos duplicados
+- SERV-SC-01: Verificar pago exitoso de un servicio con el monto sugerido
+- SERV-SC-02: Verificar que cada servicio muestre un monto sugerido distinto
+- SERV-SC-03: Verificar edición del monto sugerido antes de pagar
+- SERV-SC-04: Verificar disponibilidad de las 3 cuentas como cuenta a debitar
+- SERV-SC-05: Verificar rechazo de pago con monto igual a cero
+- SERV-SC-06: Verificar rechazo de pago por saldo insuficiente
+- SERV-SC-07: Verificar comportamiento sin límite máximo de monto (solo limitado por saldo)
+- SERV-SC-08: Verificar mensaje de éxito y disponibilidad del comprobante en PDF
+- SERV-SC-09: Verificar reseteo automático del formulario tras un pago exitoso
+- SERV-SC-10: Verificar que el pago se refleje en Últimos Movimientos del Dashboard
+- SERV-SC-11: Verificar ausencia de modal de confirmación (el pago se ejecuta directo al hacer click)
+- SERV-SC-12: Verificar comportamiento ante doble click en "Pagar Servicio" (pendiente de confirmación)
 
 ## 7. Tarjetas Virtuales
 
