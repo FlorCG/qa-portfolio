@@ -152,9 +152,16 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 7. Tarjetas Virtuales
 
-- SC-26: Verificar generación exitosa de una tarjeta virtual
-- SC-27: Verificar que solo se permita generar 1 tarjeta virtual por cuenta
-- SC-28: Verificar visualización de los datos de la tarjeta virtual generada
+- TARJ-SC-01: Verificar generación exitosa de una tarjeta virtual para una cuenta
+- TARJ-SC-02: Verificar visualización de los datos de la tarjeta generada (número, vencimiento, CVV, titular, tipo)
+- TARJ-SC-03: Verificar mensaje de estado vacío cuando no hay tarjeta activa
+- TARJ-SC-04: Verificar rechazo al intentar generar una segunda tarjeta para la misma cuenta
+- TARJ-SC-05: Verificar que el botón "Generar nueva tarjeta" se deshabilite cuando ambas cuentas ya tienen tarjeta activa
+- TARJ-SC-06: Verificar opción de copiar el número de tarjeta al hacer hover
+- TARJ-SC-07: Verificar eliminación exitosa de una tarjeta virtual
+- TARJ-SC-08: Verificar cancelación de la eliminación desde el modal
+- TARJ-SC-09: Verificar que se pueda generar una nueva tarjeta luego de eliminar la existente de esa cuenta
+- TARJ-SC-10: Verificar actualización del estado "Activa" en el menú lateral
 
 ## 8. Mis Datos
 
