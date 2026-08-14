@@ -165,23 +165,13 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 8. Mis Datos
 
-**Información Personal**
 - DATOS-SC-01: Verificar visualización correcta de información personal (Nombre, DNI, Email, Teléfono, Dirección)
-- DATOS-SC-02: Verificar que los campos de Información Personal sean estrictamente de solo lectura y no permitan edición
-
-**Mis Cuentas**
-- DATOS-SC-03: Verificar la visualización correcta de las cuentas asociadas (Cuenta Corriente, Caja de Ahorro, Tarjeta de Crédito) con su número, CBU y saldo correspondiente
-- DATOS-SC-04: Verificar la consistencia de los números de cuenta y saldos entre el Dashboard y el módulo "Mis Datos" *(Bug detectado: divergencia de números)*
-- DATOS-SC-05: Verificar la ausencia de opciones o botones para modificar o eliminar las cuentas desde esta vista
-
-**Tarjetas Asociadas**
-- DATOS-SC-06: Verificar la visualización de las tarjetas asociadas (Visa Débito, Mastercard Débito, Visa Crédito)
-- DATOS-SC-07: Verificar la coherencia y asociación correcta de las tarjetas con el perfil del usuario y los datos del Dashboard *(Bug detectado: tarjetas de débito sin montos ni correlación)*
-- DATOS-SC-08: Verificar la ausencia de opciones de eliminación o modificación sobre las tarjetas listadas en este módulo
-
-**No Funcionales / UI-UX**
-- DATOS-SC-09: Verificar el comportamiento responsivo del módulo en distintos tamaños de pantalla
-- DATOS-SC-10: Verificar que no existan errores de consola JavaScript al cargar el módulo
+- DATOS-SC-02: Verificar que se muestren correctamente las 3 cuentas (Cta. Cte., Caja de Ahorro, Tarjeta de Crédito) con número, CBU y monto
+- DATOS-SC-03: Verificar que se muestren correctamente las 3 tarjetas (Visa Débito, Mastercard Débito, Visa Crédito)
+- DATOS-SC-04: Verificar que ningún dato del módulo pueda ser editado ni eliminado
+- DATOS-SC-05: Verificar coherencia de números de cuenta/tarjeta y montos entre "Mis Datos" y el Dashboard
+- DATOS-SC-06: Verificar el acceso, carga y salida del módulo
+- DATOS-SC-07: Verificar la correcta visualización del módulo en distintos tamaños de pantalla
 
 ## 9. Pruebas Generales / No Funcionales
 
