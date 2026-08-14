@@ -165,21 +165,21 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 8. Mis Datos
 
-- ## 1. Información Personal
+**Información Personal**
 - DATOS-SC-01: Verificar visualización correcta de información personal (Nombre, DNI, Email, Teléfono, Dirección)
 - DATOS-SC-02: Verificar que los campos de Información Personal sean estrictamente de solo lectura y no permitan edición
 
-## 2. Mis Cuentas
+**Mis Cuentas**
 - DATOS-SC-03: Verificar la visualización correcta de las cuentas asociadas (Cuenta Corriente, Caja de Ahorro, Tarjeta de Crédito) con su número, CBU y saldo correspondiente
 - DATOS-SC-04: Verificar la consistencia de los números de cuenta y saldos entre el Dashboard y el módulo "Mis Datos" *(Bug detectado: divergencia de números)*
 - DATOS-SC-05: Verificar la ausencia de opciones o botones para modificar o eliminar las cuentas desde esta vista
 
-## 3. Tarjetas Asociadas
+**Tarjetas Asociadas**
 - DATOS-SC-06: Verificar la visualización de las tarjetas asociadas (Visa Débito, Mastercard Débito, Visa Crédito)
 - DATOS-SC-07: Verificar la coherencia y asociación correcta de las tarjetas con el perfil del usuario y los datos del Dashboard *(Bug detectado: tarjetas de débito sin montos ni correlación)*
 - DATOS-SC-08: Verificar la ausencia de opciones de eliminación o modificación sobre las tarjetas listadas en este módulo
 
-## 4. No Funcionales / UI-UX
+**No Funcionales / UI-UX**
 - DATOS-SC-09: Verificar el comportamiento responsivo del módulo en distintos tamaños de pantalla
 - DATOS-SC-10: Verificar que no existan errores de consola JavaScript al cargar el módulo
 
