@@ -29,7 +29,7 @@ Permitir al usuario visualizar de manera centralizada su información personal d
 
 - **Solo Lectura (Read-Only):** Ninguno de los datos mostrados en el módulo (información personal, cuentas, tarjetas) puede ser modificado, editado o eliminado desde esta interfaz.
 - **Trazabilidad y Consistencia de Datos:** Los datos financieros (cuentas, tarjetas y saldos) deben mantener estricta coherencia y sincronización con la información mostrada en el Dashboard principal de la aplicación.
-- **Estructura de Datos Personales:** Debe reflejar de forma fidedigna la PII (*Personally Identifiable Information*) del cliente autenticado.
+- **Estructura de Datos Personales:** Se esperaría, por consistencia de datos, que los números de cuenta/tarjeta mostrados en "Mis Datos" coincidan con los mostrados en el Dashboard principal, dado que representan las mismas entidades del usuario.
 
 ---
 
