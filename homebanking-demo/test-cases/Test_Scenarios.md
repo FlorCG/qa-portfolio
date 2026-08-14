@@ -165,8 +165,10 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 8. Mis Datos
 
-- SC-29: Verificar visualización correcta de información personal
-- SC-30: Verificar visualización de cuentas y tarjetas asociadas
+- DATOS-SC-01: Verificar visualización correcta de información personal (Nombre, DNI, Email, Teléfono, Dirección)[cite: 3]
+- DATOS-SC-02: Verificar visualización de cuentas y tarjetas asociadas[cite: 3]
+- DATOS-SC-03: Verificar que los campos sean estrictamente de solo lectura
+- DATOS-SC-04: Verificar consistencia de números de cuenta entre Dashboard y Mis Datos *(Detectada divergencia)*
 
 ## 9. Pruebas Generales / No Funcionales
 
