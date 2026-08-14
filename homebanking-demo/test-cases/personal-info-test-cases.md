@@ -12,8 +12,6 @@
 
 # Casos Funcionales
 
-# 3. Test Cases
-
 ## ESC-01 — Información Personal
 
 | ID | Título | Precondición | Pasos | Resultado Esperado | Prioridad |
