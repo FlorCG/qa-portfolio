@@ -165,12 +165,13 @@ Cada scenario representa una funcionalidad o flujo que será probado posteriorme
 
 ## 8. Mis Datos
 
-- DATOS-SC-01: Verificar la correcta visualización de la información personal del usuario.
-- DATOS-SC-02: Verificar la correcta visualización y consistencia de las cuentas asociadas al usuario.
-- DATOS-SC-03: Verificar la correcta visualización y consistencia de las tarjetas asociadas al usuario.
-- DATOS-SC-04: Verificar que la información del módulo no pueda ser modificada o eliminada.
-- DATOS-SC-05: Verificar el acceso y navegación dentro del módulo "Mis Datos".
-- DATOS-SC-06: Verificar la correcta visualización del módulo en diferentes resoluciones.
+- DATOS-SC-01: Verificar visualización correcta de información personal (nombre, DNI, email, teléfono, dirección)
+- DATOS-SC-02: Verificar visualización de "Mis Cuentas" (número, CBU, monto) para las 3 cuentas
+- DATOS-SC-03: Verificar consistencia de los números de cuenta entre Mis Datos y Dashboard 
+- DATOS-SC-04: Verificar visualización de las tarjetas listadas (Visa Débito, Mastercard Débito, Visa Crédito)
+- DATOS-SC-05: Verificar relación entre las tarjetas mostradas en Mis Datos y las tarjetas reales del usuario *(pendiente de confirmación)*
+- DATOS-SC-06: Verificar que "Visa Crédito" coincida con la Tarjeta de Crédito del Dashboard
+- DATOS-SC-07: Verificar que los datos no puedan modificarse ni eliminarse (solo lectura)
 
 ## 9. Pruebas Generales / No Funcionales
 
