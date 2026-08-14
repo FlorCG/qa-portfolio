@@ -56,6 +56,8 @@
 | SERV-16 | Reseteo automático del formulario tras el pago | Pago exitoso realizado, mensaje de éxito visible | 1. Completar un pago exitoso.<br>2. Esperar unos segundos sin interactuar. | La pantalla vuelve automáticamente a su estado inicial, mostrando solo el dropdown de selección de servicio. | Baja |
 | SERV-17 | El pago se refleja en Últimos Movimientos del Dashboard | Pago de servicio exitoso realizado | 1. Realizar un pago exitoso.<br>2. Navegar al Dashboard.<br>3. Revisar la sección "Últimos Movimientos". | El pago aparece reflejado con el monto, servicio y fecha correspondientes. | Alta |
 | SERV-18 | Comportamiento ante doble click en "Pagar Servicio" *(pendiente de confirmación)* | Formulario completo con datos válidos | 1. Completar el formulario.<br>2. Hacer doble click rápido sobre "Pagar Servicio". | **No confirmado.** Se espera que el sistema procese un único pago y no genere doble débito — documentar el comportamiento real y, si se detecta doble débito, reportar como bug. | Alta |
+| SERV-19 | Monto con caracteres no numéricos *(pendiente de confirmación)* | Servicio seleccionado | 1. Intentar ingresar caracteres no numéricos en el campo Monto (ej. "abc"). | **No confirmado.** Se espera que el campo rechace el ingreso o muestre validación de formato — documentar el comportamiento real. | Baja |
+| SERV-20 | Monto con decimales no estándar *(pendiente de confirmación)* | Servicio seleccionado, cuenta con saldo suficiente | 1. Ingresar un monto con más de 2 decimales (ej. $100.999).<br>2. Click en "Pagar Servicio". | **No confirmado.** Se espera que el sistema redondee, trunque o rechace el valor — documentar el comportamiento real. | Baja |
 
 ---
 
